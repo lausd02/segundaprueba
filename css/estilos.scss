@@ -1,0 +1,57 @@
+@import "colores";
+@import "footer";
+@import "ciudades";
+@import "recomendado";
+@import "banner";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.menu{
+    background-color: $Color3;
+    font-size: 20px;
+    .logo{
+        width: 200px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+}
+.lista{
+    .opcion{
+        color: $Color3;
+            &:hover{
+                font-family: 'Shadows Into Light', cursive;
+                background-color: $Color4;
+            }
+    }
+}
+.guia{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    font-size: 80px;
+    color:$Color4;
+    font-family: 'Shadows Into Light', cursive;
+}
+@media only screen and (max-width: 768px){
+    .contenedor{
+        .banner{
+            width: 500px;
+        }
+        h1{
+            font-size: 35px;
+            color: white;
+        }
+    }
+    h2{
+        font-size: 35px;
+    }
+    .carrusel{
+        width: 500px;
+    }
+}

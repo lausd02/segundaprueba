@@ -1,0 +1,26 @@
+.footer{
+    background-color: $Color3;
+    margin-top: 20px;
+    h6{
+        font-family: 'Shadows Into Light', cursive; 
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .footer__lista{
+        list-style: none;
+            .footer__opciones{
+                padding: 10px;
+                list-style: none;
+                display: inline-block;
+                    .redes{
+                        width: 30px;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+            }
+    }
+
+}

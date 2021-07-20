@@ -1,0 +1,20 @@
+h2{
+    color:$Color4;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding: 0 10px;
+}
+h5{
+    font-size: 20px;
+    color:$Color4;
+    font-weight: bold;
+}
+.boton{
+    background-color:$Color4 ;
+    transition: all 3s ease;
+        &:hover{
+            background-color:$Color1;
+            transform: scale(1.2, 1.2);
+        }
+}
